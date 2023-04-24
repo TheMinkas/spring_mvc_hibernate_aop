@@ -8,6 +8,9 @@
 <br>
 
 <form:form action="saveEmployee" modelAttribute="employee">
+<%--Сохранеие Id работника из базы данных в saveEmployee--%>
+    <form:hidden path="id"/>
+
 <%--Заполнение данных о работнике--%>
     Name <form:input path="name"/>
     <br><br>
