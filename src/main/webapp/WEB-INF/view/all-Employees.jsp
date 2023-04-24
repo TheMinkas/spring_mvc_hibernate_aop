@@ -20,11 +20,13 @@
 <%--Временная переменная emp будет принимать значения каждого работника из списка allEmps --%>
 <%--который я добавил в модель контроллера класса myController--%>
     <c:forEach var="emp" items="${allEmps}">
-<%--Привязка к каждой кнопке update параметра id--%>
+<%--Привязка к каждой кнопке update и delete параметра id--%>
         <c:url var="updateButton" value="/updateInfo">
-
             <c:param name="empId" value="${emp.id}"/>
+        </c:url>
 
+        <c:url var="deleteButton" value="/deleteEmployee">
+            <c:param name="empId" value="${emp.id}"/>
         </c:url>
 
 <%--Строка таблицы--%>
@@ -37,9 +39,10 @@
             <td>
                 <input type="button" value="Update"
                 onclick="window.location.href = '${updateButton}'"/>
+
+                <input type="button" value="Delete"
+               onclick="window.location.href = '${deleteButton}'"/>
             </td>
-
-
         </tr>
 
     </c:forEach>

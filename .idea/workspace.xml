@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c2460a4-cb39-4aa2-877c-7e2da69cef35" name="Changes" comment="Подключил базу данных используя Hibernate. Добавил отображение всех работников и добавление нового работника. Связь приложения следующая: View&lt;-Контроллер&lt;-&gt;Сервис&lt;-&gt;DAO(доступ к базе данных)&lt;-&gt;база данных">
+    <list default="true" id="6c2460a4-cb39-4aa2-877c-7e2da69cef35" name="Changes" comment="добавил функцию изменения информации о работниках">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/minkas/spring/mvc_hibernate_aop/controller/myController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minkas/spring/mvc_hibernate_aop/controller/myController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/minkas/spring/mvc_hibernate_aop/dao/EmployeeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minkas/spring/mvc_hibernate_aop/dao/EmployeeDAO.java" afterDir="false" />
@@ -17,7 +17,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/minkas/spring/mvc_hibernate_aop/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minkas/spring/mvc_hibernate_aop/service/EmployeeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/minkas/spring/mvc_hibernate_aop/service/EmployeeServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/minkas/spring/mvc_hibernate_aop/service/EmployeeServiceImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/all-Employees.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/all-Employees.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/employee-info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/employee-info.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +256,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682338213556</updated>
       <workItem from="1682338214796" duration="13014000" />
-      <workItem from="1682375712213" duration="2652000" />
+      <workItem from="1682375712213" duration="4079000" />
     </task>
     <task id="LOCAL-00001" summary="Подключил базу данных используя Hibernate. Добавил отображение всех работников и добавление нового работника. Связь приложения следующая: View&lt;-Контроллер&lt;-&gt;Сервис&lt;-&gt;DAO(доступ к базе данных)&lt;-&gt;база данных">
       <created>1682375747479</created>
@@ -266,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682375747479</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="добавил функцию изменения информации о работниках">
+      <created>1682378533826</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682378533826</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +282,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Подключил базу данных используя Hibernate. Добавил отображение всех работников и добавление нового работника." />
     <MESSAGE value="Подключил базу данных используя Hibernate. Добавил отображение всех работников и добавление нового работника. Связь приложения следующая: View&lt;-Контроллер&lt;-&gt;Сервис&lt;-&gt;DAO(доступ к базе данных)&lt;-&gt;база данных" />
-    <option name="LAST_COMMIT_MESSAGE" value="Подключил базу данных используя Hibernate. Добавил отображение всех работников и добавление нового работника. Связь приложения следующая: View&lt;-Контроллер&lt;-&gt;Сервис&lt;-&gt;DAO(доступ к базе данных)&lt;-&gt;база данных" />
+    <MESSAGE value="добавил функцию изменения информации о работниках" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил функцию изменения информации о работниках" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

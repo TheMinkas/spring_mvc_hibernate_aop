@@ -42,4 +42,11 @@ public class myController {
         model.addAttribute("employee", employee);
         return "employee-info";
     }
+    @RequestMapping("/deleteEmployee")
+    public String deleteEmployee(@RequestParam ("empId") int id) {
+        employeeService.deleteEmployee(id);
+        //"redirect:/" - перенаправляет на метод showAllEmployees так как он имеет @RequestMapping("/")
+        // и выводит список работников
+        return "redirect:/";
+    }
 }
